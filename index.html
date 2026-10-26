@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fatma Bakry — programming foundations, learning journey, certificates, and software projects.">
+<title>Fatma Bakry | Software Development Portfolio</title>
+<style>
+:root{--bg:#080b16;--surface:#101629;--surface2:#151d33;--text:#f8fafc;--muted:#a6b0c3;--line:rgba(148,163,184,.18);--violet:#8b5cf6;--cyan:#22d3ee;--pink:#e879f9;--shadow:0 24px 80px rgba(0,0,0,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(ellipse at 12% 8%,rgba(139,92,246,.16),transparent 35%),radial-gradient(ellipse at 88% 28%,rgba(34,211,238,.10),transparent 30%),radial-gradient(ellipse at 50% 90%,rgba(232,121,249,.08),transparent 35%)}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(1160px,calc(100% - 28px));z-index:50;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border:1px solid var(--line);border-radius:18px;background:rgba(8,11,22,.78);backdrop-filter:blur(18px);box-shadow:0 12px 40px #0002}.brand{font-weight:800;letter-spacing:-.04em}.brand span{color:var(--cyan)}.links{display:flex;gap:19px;align-items:center;font-size:.84rem;color:var(--muted)}.links a:hover,.links a.active{color:var(--text)}.nav-actions{display:flex;gap:8px;align-items:center}.icon-btn,.menu-btn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:11px;padding:8px 10px;cursor:pointer}.menu-btn{display:none}.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:50px;padding:145px 0 80px}.eyebrow{display:inline-flex;gap:9px;align-items:center;border:1px solid rgba(34,211,238,.25);background:rgba(34,211,238,.07);color:#a5f3fc;border-radius:99px;padding:7px 13px;font-size:.82rem}.dot{width:8px;height:8px;border-radius:50%;background:#34d399;box-shadow:0 0 15px #34d399;animation:pulse 2s infinite}h1{font-size:clamp(3.2rem,7vw,6.4rem);line-height:.98;letter-spacing:-.075em;margin:24px 0 12px}.gradient{background:linear-gradient(110deg,#c4b5fd,#22d3ee 55%,#e879f9);-webkit-background-clip:text;background-clip:text;color:transparent}.role{font-size:clamp(1.2rem,2.5vw,1.8rem);font-weight:650;margin:0 0 18px}.lead{color:var(--muted);font-size:1.05rem;max-width:610px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 17px;border-radius:13px;border:1px solid var(--line);font-weight:700;font-size:.92rem;transition:transform .25s,border-color .25s,box-shadow .25s;background:var(--surface)}.btn:hover{transform:translateY(-3px);border-color:rgba(34,211,238,.55);box-shadow:0 12px 35px rgba(34,211,238,.10)}.btn.primary{background:linear-gradient(110deg,var(--violet),#6554d9 55%,#168aa4);border:0;box-shadow:0 10px 35px rgba(139,92,246,.25)}.hero-art{min-height:430px;position:relative;display:grid;place-items:center}.orb{position:absolute;border-radius:50%;filter:blur(1px);animation:float 7s ease-in-out infinite}.orb.one{width:290px;height:290px;background:radial-gradient(circle at 35% 30%,#c4b5fd,rgba(139,92,246,.42) 38%,rgba(139,92,246,.04) 72%);box-shadow:0 0 90px #8b5cf633}.orb.two{width:210px;height:210px;right:0;top:35px;background:radial-gradient(circle at 35% 35%,#a5f3fc,rgba(34,211,238,.25) 45%,transparent 72%);animation-delay:-2s}.orb.three{width:130px;height:130px;left:5%;bottom:45px;background:radial-gradient(circle at 35% 30%,#f5d0fe,rgba(232,121,249,.28) 48%,transparent 75%);animation-delay:-4s}.code-card{position:relative;width:min(390px,100%);border:1px solid rgba(196,181,253,.27);background:rgba(16,22,41,.84);backdrop-filter:blur(16px);border-radius:22px;padding:22px;box-shadow:var(--shadow);transform:rotate(-2deg);animation:float 6s ease-in-out infinite}.window-dots{display:flex;gap:7px;padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:18px}.window-dots i{width:9px;height:9px;border-radius:50%;background:#fb7185}.window-dots i:nth-child(2){background:#fbbf24}.window-dots i:nth-child(3){background:#34d399}.code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9rem;color:#cbd5e1;line-height:2}.purple{color:#c4b5fd}.cyan{color:#67e8f9}.pink{color:#f0abfc}.green{color:#86efac}.float-tag{position:absolute;border:1px solid var(--line);background:#101629dd;backdrop-filter:blur(12px);padding:10px 13px;border-radius:12px;color:var(--muted);font-size:.82rem;box-shadow:var(--shadow)}.tag1{top:8%;left:0}.tag2{bottom:8%;right:0}.section{padding:95px 0;position:relative}.section.alt{background:linear-gradient(180deg,transparent,rgba(16,22,41,.48),transparent)}.section-head{max-width:690px;margin-bottom:38px}.kicker{color:var(--cyan);text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800}.section h2{font-size:clamp(2.1rem,4vw,3.4rem);letter-spacing:-.055em;line-height:1.12;margin:10px 0 14px}.section-head p,.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(21,29,51,.86),rgba(12,17,32,.9));border-radius:20px;padding:24px;transition:transform .28s,border-color .28s,box-shadow .28s;position:relative;overflow:hidden}.card:before{content:"";position:absolute;inset:0;opacity:0;pointer-events:none;background:radial-gradient(circle at 0 0,rgba(139,92,246,.13),transparent 55%);transition:opacity .3s}.card:hover{transform:translateY(-5px);border-color:rgba(139,92,246,.48);box-shadow:0 18px 50px #0003}.card:hover:before{opacity:1}.card>*{position:relative}.card h3{margin:12px 0 8px;font-size:1.08rem}.card p{color:var(--muted);margin:0;font-size:.94rem}.card-icon{width:43px;height:43px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(140deg,rgba(139,92,246,.2),rgba(34,211,238,.12));border:1px solid rgba(139,92,246,.25);font-size:1.25rem}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.chip{font-size:.75rem;color:#c4b5fd;border:1px solid rgba(139,92,246,.25);background:rgba(139,92,246,.08);padding:4px 9px;border-radius:99px}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:stretch}.about-visual{min-height:320px;border:1px solid var(--line);border-radius:24px;background:radial-gradient(circle at 50% 35%,rgba(139,92,246,.3),transparent 48%),linear-gradient(140deg,#11182b,#0a0e1b);display:grid;place-items:center;position:relative;overflow:hidden}.monogram{font-size:clamp(5rem,12vw,9rem);font-weight:900;letter-spacing:-.1em;background:linear-gradient(130deg,#c4b5fd,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 30px #8b5cf655)}.about-copy{padding:12px 0}.about-copy p{color:var(--muted)}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.value{border-left:2px solid var(--violet);padding:5px 12px}.value strong{display:block;font-size:.9rem}.value span{color:var(--muted);font-size:.8rem}.project-top{height:150px;border-radius:13px;margin-bottom:17px;display:grid;place-items:center;background:radial-gradient(circle at 30% 20%,rgba(139,92,246,.35),transparent 48%),linear-gradient(130deg,#111a32,#101326);border:1px solid var(--line);font-size:2.5rem}.status{font-size:.72rem;color:#fde68a;background:rgba(251,191,36,.09);border:1px solid rgba(251,191,36,.25);border-radius:99px;padding:4px 8px;display:inline-block}.timeline{border-left:1px solid rgba(139,92,246,.45);margin-left:8px;padding-left:26px;display:grid;gap:18px}.timeline .card:after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:var(--cyan);left:-32px;top:30px;box-shadow:0 0 16px #22d3ee}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px}.contact-panel{padding:28px;border-radius:22px;border:1px solid var(--line);background:radial-gradient(circle at 0 0,rgba(139,92,246,.15),transparent 55%),var(--surface)}.field{display:grid;gap:7px;margin-bottom:15px}.field label{font-size:.86rem;color:#dbe4f2}.field input,.field textarea{width:100%;border:1px solid var(--line);background:#080d1b;color:var(--text);border-radius:12px;padding:12px 13px;outline:none;font:inherit}.field input:focus,.field textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(34,211,238,.1)}.field textarea{min-height:130px;resize:vertical}.form-note{color:var(--muted);font-size:.82rem}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.86rem}.footer-inner{display:flex;justify-content:space-between;gap:16px;align-items:center}.footer a:hover{color:var(--cyan)}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}.light{--bg:#f7f8fc;--surface:#fff;--surface2:#edf0fa;--text:#15152b;--muted:#596176;--line:rgba(70,80,110,.18);--shadow:0 24px 80px rgba(40,40,90,.12)}.light .nav{background:rgba(248,249,255,.84)}.light .code-card,.light .float-tag{background:rgba(255,255,255,.88)}.light .code{color:#334155}.light .field input,.light .field textarea{background:#fff;color:#15152b}.light .card{background:linear-gradient(145deg,#fff,#f4f5fb)}.light .contact-panel{background:#fff}.light .project-top{background:linear-gradient(130deg,#eeedff,#e5fbff)}.light .section.alt{background:linear-gradient(180deg,transparent,rgba(225,228,245,.45),transparent)}.light .footer{border-color:var(--line)}.light .chip{color:#5b35b5}.light .eyebrow{color:#08758a}.light .field label{color:#334155}.light .status{color:#8a5b00}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-13px) rotate(1deg)}}@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 15px #34d399}50%{opacity:.55;box-shadow:0 0 4px #34d399}}
+@media(max-width:900px){.links{gap:11px;font-size:.77rem}.hero{gap:25px}.grid{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid{grid-template-columns:1fr}.hero-art{min-height:350px}}
+@media(max-width:700px){.nav{top:8px}.menu-btn{display:inline-flex}.links{display:none;position:absolute;top:65px;left:0;right:0;flex-direction:column;align-items:stretch;padding:15px;background:rgba(8,11,22,.97);border:1px solid var(--line);border-radius:16px}.links.open{display:flex}.links a{padding:8px}.hero{grid-template-columns:1fr;padding-top:125px;gap:12px}.hero-art{min-height:330px;grid-row:1}.hero-copy{grid-row:2}.orb.one{width:230px;height:230px}.orb.two{width:160px;height:160px}.code-card{max-width:340px}.grid{grid-template-columns:1fr}.value-grid{grid-template-columns:1fr}.section{padding:70px 0}.footer-inner{align-items:flex-start;flex-direction:column}.wrap{width:min(100% - 30px,1120px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home">Fatma<span>.</span></a>
+  <nav class="links" id="navLinks" aria-label="Main navigation">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="icon-btn" href="https://github.com/FatmaBakry19" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">⌘</a>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark theme">☼</button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="wrap hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="dot"></span> Software Development Journey</div>
+    <h1>Fatma<br><span class="gradient">Bakry.</span></h1>
+    <p class="role">Software Developer <span class="gradient">in progress</span></p>
+    <p class="lead">Building a strong foundation in programming, problem-solving, and reliable software — one thoughtful step at a time.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore My Work <span>↗</span></a>
+      <a class="btn" href="#about">About Me</a>
+      <a class="btn" href="https://github.com/FatmaBakry19" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-label="Abstract code illustration">
+    <div class="orb one"></div><div class="orb two"></div><div class="orb three"></div>
+    <div class="float-tag tag1">✦ Curious by nature</div>
+    <div class="float-tag tag2">Build · Learn · Improve</div>
+    <div class="code-card">
+      <div class="window-dots"><i></i><i></i><i></i></div>
+      <div class="code"><span class="purple">const</span> developer = {<br>&nbsp;&nbsp;name: <span class="green">"Fatma Bakry"</span>,<br>&nbsp;&nbsp;focus: <span class="green">"Problem solving"</span>,<br>&nbsp;&nbsp;mindset: <span class="green">"Keep learning"</span>,<br>&nbsp;&nbsp;build: <span class="pink">()</span> =&gt; {<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cyan">return</span> <span class="green">"Useful software"</span>;<br>&nbsp;&nbsp;}<br>};<br><span class="purple">developer</span>.<span class="cyan">build</span>();</div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="about"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">A little about me</span><h2>Curiosity, code &<br><span class="gradient">continuous growth.</span></h2><p>A thoughtful approach to learning how software works — and how it can solve real problems.</p></div>
+  <div class="about-grid reveal">
+    <div class="about-visual"><div class="monogram">FB</div></div>
+    <div class="about-copy">
+      <h3>Hi, I'm Fatma.</h3>
+      <p>I'm interested in understanding how software works behind the scenes and how thoughtful engineering can solve real problems. My learning journey focuses on programming, problem-solving, software fundamentals, and building a strong foundation for backend development.</p>
+      <p>I value clear code, maintainability, reliability, and continuous improvement. I believe meaningful progress comes from combining theory with practice, reviewing mistakes, and gradually turning concepts into working projects.</p>
+      <p>My goal is to grow into a developer who can design and build reliable systems that are useful to people and businesses.</p>
+      <div class="value-grid"><div class="value"><strong>Problem-solving</strong><span>Break challenges into steps.</span></div><div class="value"><strong>Continuous learning</strong><span>Practice, reflect, improve.</span></div><div class="value"><strong>Engineering quality</strong><span>Clarity and reliability matter.</span></div></div>
+      <div class="actions"><a class="btn" href="https://github.com/FatmaBakry19" target="_blank" rel="noopener noreferrer">View GitHub Profile ↗</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section" id="skills"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">The toolkit</span><h2>Foundations before <span class="gradient">specialization.</span></h2><p>My learning roadmap is focused on developing strong fundamentals first. The categories below describe areas of study, not a claim of mastery in every technology.</p></div>
+  <div class="grid">
+    <article class="card reveal"><div class="card-icon">⌘</div><h3>Programming Fundamentals</h3><p>Variables, data types, conditions, loops, functions, and the building blocks of readable programs.</p><div class="chips"><span class="chip">Logic</span><span class="chip">Functions</span><span class="chip">Problem-solving</span></div></article>
+    <article class="card reveal"><div class="card-icon">⟨/⟩</div><h3>JavaScript</h3><p>A core learning area for understanding programming concepts and eventually building applications.</p><div class="chips"><span class="chip">Core concepts</span><span class="chip">Practice</span></div></article>
+    <article class="card reveal"><div class="card-icon">◇</div><h3>Backend Development</h3><p>Future focus: server-side logic, API design, validation, error handling, and maintainable architecture.</p><div class="chips"><span class="chip">Roadmap</span><span class="chip">Future focus</span></div></article>
+    <article class="card reveal"><div class="card-icon">▤</div><h3>Databases & SQL</h3><p>Learning how structured data is organized, queried, related, and protected.</p><div class="chips"><span class="chip">Data modeling</span><span class="chip">SQL concepts</span></div></article>
+    <article class="card reveal"><div class="card-icon">⇄</div><h3>APIs & Integration</h3><p>Understanding how applications exchange information through clear interfaces.</p><div class="chips"><span class="chip">HTTP concepts</span><span class="chip">REST roadmap</span></div></article>
+    <article class="card reveal"><div class="card-icon">⌁</div><h3>Developer Tools</h3><p>Building practical habits around version control, debugging, documentation, and testing.</p><div class="chips"><span class="chip">Git & GitHub</span><span class="chip">Debugging</span></div></article>
+  </div>
+  <p class="form-note" style="margin-top:18px">Skill labels can be updated as practical experience grows. Advanced proficiency is not claimed here.</p>
+</div></section>
+
+<section class="section alt" id="projects"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">Selected work</span><h2>From concepts to <span class="gradient">projects.</span></h2><p>A project should demonstrate real implementation, decisions, and learning. Proposed ideas are clearly marked until they are built and verified.</p></div>
+  <div class="grid">
+    <article class="card reveal"><div class="project-top">◈</div><span class="status">Proposed · Not yet verified</span><h3>Task Management API</h3><p>A planned API concept for organizing tasks, tracking status, and managing task workflows. This is a future project idea, not a claim of completed work.</p><div class="chips"><span class="chip">API design</span><span class="chip">Validation</span><span class="chip">Database</span></div></article>
+    <article class="card reveal"><div class="project-top">▣</div><span class="status">Proposed · Not yet verified</span><h3>Personal Notes API</h3><p>A planned service for creating, updating, retrieving, and deleting notes while practicing clear API behavior and data handling.</p><div class="chips"><span class="chip">CRUD</span><span class="chip">REST concepts</span><span class="chip">Testing</span></div></article>
+    <article class="card reveal"><div class="project-top">✳</div><span class="status">In progress · Portfolio prototype</span><h3>Developer Portfolio</h3><p>This portfolio prototype is a starting point for presenting a learning journey, organizing projects, and developing a professional online presence.</p><div class="chips"><span class="chip">Responsive UI</span><span class="chip">Interactions</span><span class="chip">Accessibility</span></div></article>
+  </div>
+  <div class="actions reveal"><a class="btn primary" href="https://github.com/FatmaBakry19" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a></div>
+</div></section>
+
+<section class="section" id="services"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">Areas of interest</span><h2>Potential <span class="gradient">service areas.</span></h2><p>These are future service directions to explore as skills and project evidence develop. They are not a promise of currently available professional services.</p></div>
+  <div class="grid">
+    <article class="card reveal"><div class="card-icon">⇄</div><h3>REST API Development</h3><p>Designing clear endpoints, consistent responses, and structured validation.</p></article>
+    <article class="card reveal"><div class="card-icon">▤</div><h3>Database Integration</h3><p>Connecting applications to well-structured data stores with reliable queries.</p></article>
+    <article class="card reveal"><div class="card-icon">⌑</div><h3>API Integration</h3><p>Helping applications communicate with external services through documented interfaces.</p></article>
+    <article class="card reveal"><div class="card-icon">◉</div><h3>Authentication</h3><p>Learning and implementing appropriate identity and access-control patterns.</p></article>
+    <article class="card reveal"><div class="card-icon">⌁</div><h3>Debugging & Fixes</h3><p>Reproducing issues, tracing their causes, and validating changes with tests.</p></article>
+    <article class="card reveal"><div class="card-icon">▧</div><h3>API Documentation</h3><p>Making technical interfaces easier to understand, test, and maintain.</p></article>
+  </div>
+</div></section>
+
+<section class="section alt" id="journey"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">Progress, honestly documented</span><h2>My learning <span class="gradient">journey.</span></h2><p>Every milestone should reflect real learning. This timeline can grow as new work and evidence are confirmed.</p></div>
+  <div class="timeline">
+    <article class="card reveal"><span class="chip">Learning milestone</span><h3>Coding Basics — Creativa</h3><p>A programming learning milestone and part of my ongoing development journey. Certificate date and verification details can be added when confirmed.</p></article>
+    <article class="card reveal"><span class="chip">Current direction</span><h3>Computer Science & Programming Foundations</h3><p>Building a broad foundation in programming concepts and problem-solving before choosing a specialization based on practical experience and market needs.</p></article>
+    <article class="card reveal"><span class="chip">Next milestone</span><h3>Practice, projects, and review</h3><p>Turn concepts into small practical exercises, review the results, and use real evidence to decide what to learn next.</p></article>
+  </div>
+</div></section>
+
+<section class="section" id="certificates"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">Learning milestones</span><h2>Certificates & <span class="gradient">achievements.</span></h2><p>Credentials should be verifiable and accurately represented.</p></div>
+  <article class="card reveal"><div class="card-icon">✦</div><span class="status">Details to confirm</span><h3>Online Learning Certificates</h3><p>I have earned certificates through online learning platforms, including Coding Basics from Creativa. I’m continuing to build practical skills alongside structured learning. Specific platform names, certificate titles, dates, and verification links should be added only when confirmed.</p></article>
+</div></section>
+
+<section class="section alt" id="blog"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">Notes & ideas</span><h2>Learning in <span class="gradient">public.</span></h2><p>Draft article ideas for future technical writing. They can be expanded and published after review.</p></div>
+  <div class="grid">
+    <article class="card reveal"><div class="card-icon">01</div><span class="chip">Draft idea</span><h3>Why Programming Fundamentals Matter</h3><p>How a strong foundation helps make unfamiliar problems easier to understand and solve.</p></article>
+    <article class="card reveal"><div class="card-icon">02</div><span class="chip">Draft idea</span><h3>A Practical Approach to Problem-Solving</h3><p>A structured way to understand a problem, break it down, test ideas, and learn from results.</p></article>
+    <article class="card reveal"><div class="card-icon">03</div><span class="chip">Draft idea</span><h3>What Makes Code Maintainable?</h3><p>Exploring clarity, naming, organization, and the habits that help code remain understandable.</p></article>
+  </div>
+  <p class="form-note" style="margin-top:16px">These are draft topics, not published articles or claims of personal project experience.</p>
+</div></section>
+
+<section class="section" id="contact"><div class="wrap">
+  <div class="section-head reveal"><span class="kicker">Say hello</span><h2>Let's build something <span class="gradient">meaningful.</span></h2><p>Have a question, an idea, or want to connect? Send a message using the form or find me on GitHub.</p></div>
+  <div class="contact-grid reveal">
+    <div class="contact-panel"><h3>Let's connect.</h3><p class="muted">I’m documenting my learning journey and building toward practical software development. I’m happy to connect around programming, learning, and useful projects.</p><div class="actions"><a class="btn primary" href="https://github.com/FatmaBakry19" target="_blank" rel="noopener noreferrer">⌘ GitHub Profile ↗</a></div><p class="form-note">GitHub: github.com/FatmaBakry19</p></div>
+    <form class="contact-panel" id="contactForm">
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" required minlength="2" placeholder="How should I call you?"></div>
+      <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+      <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" required placeholder="What would you like to discuss?"></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" required minlength="10" placeholder="Write your message here..."></textarea></div>
+      <button class="btn primary" type="submit">Prepare Email ↗</button>
+      <p class="form-note" id="formNote" role="status">This prototype opens your email app; it does not store or send messages to a database.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><div><a class="brand" href="#home">Fatma<span>.</span></a><div>Building skills. Solving problems. Growing with purpose.</div></div><div>© <span id="year"></span> Fatma Bakry · <a href="https://github.com/FatmaBakry19" target="_blank" rel="noopener noreferrer">GitHub ↗</a> · <a href="#home">Back to top ↑</a></div></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'), navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'✕':'☰'});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰'}));
+const themeBtn=document.getElementById('themeBtn');
+themeBtn.addEventListener('click',()=>{document.body.classList.toggle('light');const light=document.body.classList.contains('light');themeBtn.textContent=light?'☾':'☼';themeBtn.setAttribute('aria-label',light?'Switch to dark theme':'Switch to light theme')});
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+const sections=[...document.querySelectorAll('main section[id]')], navAnchors=[...navLinks.querySelectorAll('a')];
+const sectionObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){navAnchors.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-30% 0px -60% 0px'});
+sections.forEach(s=>sectionObserver.observe(s));
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget;const name=f.name.value.trim(),email=f.email.value.trim(),subject=f.subject.value.trim(),message=f.message.value.trim();if(!f.reportValidity())return;const body=`From: ${name} (${email})%0D%0A%0D%0A${encodeURIComponent(message)}`;const url=`mailto:?subject=${encodeURIComponent(subject)}&body=${body}`;document.getElementById('formNote').textContent='Your email app should open with the message prepared. This demo does not send or store it.';window.location.href=url});
+</script>
+</body>
+</html>
